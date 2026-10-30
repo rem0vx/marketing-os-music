@@ -30,5 +30,15 @@ Library: `tools/music/`. Full source, licence and verification notes: `tools/mus
 | stay-interstellar-slowed-reverb_starsounds.m4a | none | DRR9jtFjGj7 | about 1.1 s | Straight through | Calm talking head / screen walkthrough |
 | leanin-slowed_cormill.m4a | none | DfA4UbZAQYf | not measured | Not measured | Talking-head bed |
 | 4x4_travis-scott.m4a | none | DbQAuzHs0cy | not measured | Not measured | Not for walk-talks (Remo, 2026-10-26) |
+| outside-my-feelings-outro_arriez-king-dif.m4a | outside-my-feelings-outro_arriez-king-dif__yt-V8ddup1hPj0.m4a | YouTube V8ddup1hPj0 (Mr Nik Setting, "My $600k/mo appointment setting system") | 56.21 s | Straight to 98.23 s, then loops the block 88.21 to 98.23 s (10.02 s), 20 ms crossfades; cut is about 600 s. Matched to the ref's Demucs music stem: corr 0.81 to 0.98, within 0.12 s over 80 s. Ref sits about 11 LU under the voice | Second-channel BTS / YouTube talking heads (used in 2026-10-29-yt-mentee-walk at -12 LU) |
+| seraphic_txmy.m4a | none | none (Frame.io "short form musics", 2026-10-30) | not measured | Straight through | Short-form bed |
+| ray-mysterio-instrumental_the-alchemist.m4a | none | none (Frame.io, 2026-10-30) | not measured | Straight through | Short-form bed |
+| girlfriends-instrumental_new-computers.m4a | none | none (Frame.io, 2026-10-30) | not measured | Very quiet (-24.9 LUFS), gain up | Short-form bed |
+| every-living-breathing-moment_gabriel-piano.m4a | none | none (Frame.io, 2026-10-30) | not measured | Straight through | Short-form bed |
+| echo-sax-end_caleb-arredondo.m4a | none | none (Frame.io, 2026-10-30) | not measured | Straight through. Two remixes also in the library (drill, MIKE MVSK) | Short-form bed |
+| echo-sax-end-drill-remix_caleb-arredondo.m4a | none | none (Frame.io, 2026-10-30) | not measured | Straight through | Short-form bed |
+| echo-sax-end-mike-mvsk-remix_caleb-arredondo.m4a | none | none (Frame.io, 2026-10-30) | not measured | Loud (-8.2 LUFS) | Short-form bed |
+| do-i-clench-my-fists_ridgeclub.m4a | none | none (Frame.io, 2026-10-30) | not measured | Straight through | Short-form bed |
+| acido-iii-over-slowed_udiennx.m4a | none | none (Frame.io, 2026-10-30) | not measured | Loud (-7.5 LUFS) | Short-form bed |
 
 Older rows (no cut) come from the README's Shazam notes and are less precise ("about"). Build a reel-matched cut the first time one is used.

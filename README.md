@@ -8,7 +8,7 @@ Private audio library for Marketing OS video work (nuBeam Partners / Seqnced). E
 
 | Path | What |
 |---|---|
-| `tools/music/*.m4a` | Full tracks, Shazam-verified |
+| `tools/music/*.m4a` | Full tracks (Shazam-verified unless the README says otherwise) |
 | `tools/music/reel-cuts/<track>__reel-<id>.m4a` | Reel-matched cuts: the same start point, loops, jumps and speed as the reference reel, full reel length, music only |
 | `tools/music/README.md` | Source, licence and verification notes per track |
 | `.claude/rules/music-cues.md` | Cue sheet: where each song starts and where to use it. Read this first |

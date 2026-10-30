@@ -77,3 +77,25 @@ Reels downloaded to `_sources/<reel id>/audio.m4a`, voice removed with Demucs (`
 
 Pick by tone additions: confident: my-eyes_travis-scott.m4a. Tense/dramatic: adagio-in-c-minor_nicholas-britell.m4a. Calm/reflective: everything-in-its-right-place_radiohead.m4a. Steady beat: equilibriums-edge_remyyybeatz.m4a. Upbeat and playful are still gaps.
 | my-eyes_travis-scott.m4a | "MY EYES" by Travis Scott, 4:13, -7.7 LUFS | YouTube, Travis Scott channel official audio (https://www.youtube.com/watch?v=pildU9lK6vM), downloaded 2026-10-28. Remo's match for reel instagram.com/reel/DbqkgAasReM: from 15.72 s, played about 0.9% faster (within 0.03 s for the first 28 s). Shazam was rate-limited, so not Shazam-verified this session. Music stem in `_sources/DbqkgAasReM/` | NOT licensed: organic only, add from the platform sound library when posting, never paid ads | Walk-talk bed. Used in projects/content/2026-10-28-c0180 at -15 LU |
+
+## Added 2026-10-29
+
+| File | Track | Source | Licence | Use |
+|---|---|---|---|---|
+| outside-my-feelings-outro_arriez-king-dif.m4a | "Outside My Feelings (Outro)" by Arriez & King Dif, 2:24 | YouTube "Arriez - Topic" (https://www.youtube.com/watch?v=NVpz6hxY114), downloaded 2026-10-29 (yt-dlp, tv_embedded client); Shazam-verified on 6 windows of the Demucs music stem of youtube.com/watch?v=V8ddup1hPj0 | NOT licensed: organic only, never paid ads | Second-channel BTS bed. Reel-matched cut: reel-cuts/outside-my-feelings-outro_arriez-king-dif__yt-V8ddup1hPj0.m4a (from 56.21 s, then loops 88.21-98.23 s) |
+
+## Added 2026-10-30 from Frame.io share "short form musics" (by Raj)
+
+Share: https://next.frame.io/share/e56d9689-62de-4063-8f6f-07402e42c8f6/cf570621-bcc0-4e1e-b0f3-1b223247d6dc (12 mp3s). Already in the library and skipped: She Will Instrumental Slowed, Adagio in C Minor, Leanin (Slowed); durations match ours. The 9 new ones below were downloaded as the original mp3s (kept in `_sources/frameio-short-form-musics/`) and converted to AAC 256k m4a. Titles and artists are the share's filenames, not Shazam-verified. No reference reel, so no cue points or reel cuts yet. LUFS is integrated. Tone not yet judged by ear.
+
+| File | Track | Source | Licence | Use |
+|---|---|---|---|---|
+| seraphic_txmy.m4a | "Seraphic" by Txmy, 2:27, -13.9 LUFS | Frame.io share above, 2026-10-30 | NOT licensed: organic only, add from the platform sound library when posting, never paid ads | Short-form bed (Raj's pick) |
+| ray-mysterio-instrumental_the-alchemist.m4a | "Ray Mysterio (Instrumental)" by The Alchemist, 3:44, -13.7 LUFS | Frame.io share above, 2026-10-30 | NOT licensed: organic only, never paid ads | Short-form bed (Raj's pick) |
+| girlfriends-instrumental_new-computers.m4a | "Girlfriends (Instrumental)" by New Computers, 2:12, -24.9 LUFS (very quiet, gain it up) | Frame.io share above, 2026-10-30 | NOT licensed: organic only, never paid ads | Short-form bed (Raj's pick) |
+| every-living-breathing-moment_gabriel-piano.m4a | "Every Living Breathing Moment" by Gabriel Piano, 1:52, -11.4 LUFS | Frame.io share above, 2026-10-30 | NOT licensed: organic only, never paid ads | Short-form bed (Raj's pick) |
+| echo-sax-end_caleb-arredondo.m4a | "Echo Sax End" by Caleb Arredondo, 1:18, -14.8 LUFS | Frame.io share above, 2026-10-30 | NOT licensed: organic only, never paid ads | Short-form bed (Raj's pick) |
+| echo-sax-end-drill-remix_caleb-arredondo.m4a | "Echo Sax End (Drill Remix)", Caleb Arredondo, 2:53, -10.8 LUFS | Frame.io share above, 2026-10-30 | NOT licensed: organic only, never paid ads | Short-form bed (Raj's pick) |
+| echo-sax-end-mike-mvsk-remix_caleb-arredondo.m4a | "Echo Sax End (MIKE MVSK remix)", Caleb Arredondo, 3:52, -8.2 LUFS (loud) | Frame.io share above, 2026-10-30 | NOT licensed: organic only, never paid ads | Short-form bed (Raj's pick) |
+| do-i-clench-my-fists_ridgeclub.m4a | "do i clench my fists" by ridgeclub, 2:33, -13.9 LUFS | Frame.io share above, 2026-10-30 | NOT licensed: organic only, never paid ads | Short-form bed (Raj's pick) |
+| acido-iii-over-slowed_udiennx.m4a | "ACIDO III (Over Slowed)" by UdieNnx, 1:47, -7.5 LUFS (loud) | Frame.io share above, 2026-10-30 | NOT licensed: organic only, never paid ads | Short-form bed (Raj's pick) |
