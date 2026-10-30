@@ -92,10 +92,27 @@ Share: https://next.frame.io/share/e56d9689-62de-4063-8f6f-07402e42c8f6/cf570621
 |---|---|---|---|---|
 | seraphic_txmy.m4a | "Seraphic" by Txmy, 2:27, -13.9 LUFS | Frame.io share above, 2026-10-30 | NOT licensed: organic only, add from the platform sound library when posting, never paid ads | Short-form bed (Raj's pick) |
 | ray-mysterio-instrumental_the-alchemist.m4a | "Ray Mysterio (Instrumental)" by The Alchemist, 3:44, -13.7 LUFS | Frame.io share above, 2026-10-30 | NOT licensed: organic only, never paid ads | Short-form bed (Raj's pick) |
-| girlfriends-instrumental_new-computers.m4a | "Girlfriends (Instrumental)" by New Computers, 2:12, -24.9 LUFS (very quiet, gain it up) | Frame.io share above, 2026-10-30 | NOT licensed: organic only, never paid ads | Short-form bed (Raj's pick) |
+| new-computers-instrumental_girlfriends.m4a | "New Computers (Instrumental)" by Girlfriends, 2:12, -24.9 LUFS (very quiet, gain it up) | Frame.io share above, 2026-10-30 | NOT licensed: organic only, never paid ads | Short-form bed (Raj's pick) |
 | every-living-breathing-moment_gabriel-piano.m4a | "Every Living Breathing Moment" by Gabriel Piano, 1:52, -11.4 LUFS | Frame.io share above, 2026-10-30 | NOT licensed: organic only, never paid ads | Short-form bed (Raj's pick) |
 | echo-sax-end_caleb-arredondo.m4a | "Echo Sax End" by Caleb Arredondo, 1:18, -14.8 LUFS | Frame.io share above, 2026-10-30 | NOT licensed: organic only, never paid ads | Short-form bed (Raj's pick) |
 | echo-sax-end-drill-remix_caleb-arredondo.m4a | "Echo Sax End (Drill Remix)", Caleb Arredondo, 2:53, -10.8 LUFS | Frame.io share above, 2026-10-30 | NOT licensed: organic only, never paid ads | Short-form bed (Raj's pick) |
 | echo-sax-end-remix-mike-mvsk_caleb-arredondo.m4a | "Echo Sax End (MIKE MVSK remix)", Caleb Arredondo, 3:52, -8.2 LUFS (loud) | Frame.io share above, 2026-10-30 | NOT licensed: organic only, never paid ads | Short-form bed (Raj's pick) |
 | do-i-clench-my-fists_ridgeclub.m4a | "do i clench my fists" by ridgeclub, 2:33, -13.9 LUFS | Frame.io share above, 2026-10-30 | NOT licensed: organic only, never paid ads | Short-form bed (Raj's pick) |
 | acido-iii-over-slowed_udiennx.m4a | "ACIDO III (Over Slowed)" by UdieNnx, 1:47, -7.5 LUFS (loud) | Frame.io share above, 2026-10-30 | NOT licensed: organic only, never paid ads | Short-form bed (Raj's pick) |
+
+### Instagram cue points for the 2026-10-30 tracks (found 2026-10-30)
+
+How: treg TikHub search for the IG sound, then the reels list for it, which carries Instagram's own start time per reel (`audio_asset_start_time_in_ms`). 12 top reels per sound. IG's sound file was aligned against ours (mel cross-correlation, 5 s windows over the whole track, no speed drift on any) and 2 reels per track were checked by audio (3 s windows). Times below are in OUR files. Reels and IG sound files kept in `_sources/<reel id>/` and `_sources/frameio-short-form-musics/ig/` (`reels.json` has all 12 per sound with plays and starts). API cost about $0.03.
+
+| File | IG sound (id, reels using it) | Most used start (ours) | Other starts | Checked |
+|---|---|---|---|---|
+| seraphic_txmy.m4a | instagram.com/reels/audio/587213663720245, 5.8K | 1.63 s (IG 1.5 s, 8 of 12) | 0.13 s (IG 0) | De0P-qPJAEz, Dd8FAGbiKUJ, all windows within 0.01 s. Same file as IG's |
+| ray-mysterio-instrumental_the-alchemist.m4a | 486670981854169, 79K | 0.13 s (IG 0, 6 of 12; top reel DeW7zAUu1Cd 1.7M plays) | 1.63 s (IG 1.5) | DeW7zAUu1Cd, DeoMDRgMpHV. Same file as IG's |
+| new-computers-instrumental_girlfriends.m4a | 1361450332645281 "New Computers" by Girlfriends, 15K | 1.98 s (IG 1.5 s, 9 of 12) | | Reels Dd-r47SO_5k, DeskknWyel7 match IG's sound at the stated start. Ours does not match the reels directly: same timing (ours = IG + 0.35 s, steady) but a much quieter, different master (-24.9 vs -14 LUFS). Both instrumental (0 words). For the exact IG sound use `ig/ig_asset/girlfriends.mp4` from 1.63 s (unlicensed, organic only) |
+| every-living-breathing-moment_gabriel-piano.m4a | 1213929170639164, 23K | 5.29 s (IG 4.5 s, 7 of 12) | | Dd_lIlztbEu, Dd8zXlOTWV7. Ours = IG + 0.66 s; ours has about 10 s more tail (IG's is 1:42) |
+| echo-sax-end_caleb-arredondo.m4a | 1073574610962815, 324K | 0.84 s (IG 0, 6 of 12; top reel DZUrwODR8UN 747K) | 2.34 s (IG 1.5) | DZUrwODR8UN. Ours = IG + 0.70 s. DeHuMWUO5bM says IG 0 but plays from 1.49 s in ours (likely trimmed by the creator) |
+| do-i-clench-my-fists_ridgeclub.m4a | 28060501890200050, 302K | 1.48 s (IG 1.5 s, 7 of 12; top reel DeED1FvgX8Q 2.3M) | 27 s, 95 s (1 reel each) | DeED1FvgX8Q. Same file as IG's. DeMkyplOCcc is voice-heavy, could not be read |
+| acido-iii-over-slowed_udiennx.m4a | 778863298353997, 652K | 9.00 s (IG 9 s, 5 of 12) | 0.14 s (IG 0, 3 of 12, incl. top reel DeJqpvIyURP 503K) | DeCIKp_peXp, DeJqpvIyURP. Same file as IG's |
+| echo-sax-end-drill-remix / -remix-mike-mvsk | not in IG's music library | | | Reels using them would be "original audio", not searchable by sound |
+
+Every IG music-sticker reel checked plays straight through from its start (no loops or jumps), so no reel-matched cuts were built: start at the cue and trim the tail.

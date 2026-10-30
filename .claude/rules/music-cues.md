@@ -13,6 +13,8 @@ Library: `tools/music/`. Full source, licence and verification notes: `tools/mus
 - A Shazam match only proves the melody. Before building from the official track, compare the reel's music to it (frequency balance, bass, speed). If they differ (an Instagram edit, remix or bass-boosted version), use the reel's own music: Demucs the voice out, check the stem has 0 words with `tools/transcribe-long.sh`, save it as `reel-cuts/<song>-ig-edit__reel-<id>__extracted.m4a`. Or ask Remo for the sound name shown on the reel in the Instagram app.
 - Shazam offsets are not exact track times. MY EYES and Radiohead read 0.78 s early, Equilibriums 0.00 s. Repetitive beats can also return a repeat of the same bar, so confirm loops by matching the cut against the reel's sound (spectrum), not by Shazam alone.
 
+- Finding where reels start a library song (2026-10-30, cheapest way): treg `tikhub.x.instagram-v2-search-music` (keyword, $0.002) gives the IG sound id, then `tikhub.x.instagram-v1-fetch-music-posts` (music_id, $0.001, run calls one at a time) lists reels with `clips_metadata.music_info.music_consumption_info.audio_asset_start_time_in_ms`: Instagram's own record of the part each reel uses. The most common value is usually IG's highlight (`highlight_start_times_in_ms`). Then align IG's sound file (`fast_start_progressive_download_url`) against our file and check 1 to 2 reels by audio: the IG file plays about 0.13 s late (encoder padding), and our file can have its own offset. Write the cue in OUR file's time.
+
 ## Cue sheet
 
 | Track file | Reel-matched cut | Reference reel | Starts at | Edits / speed | Use for |
@@ -31,14 +33,14 @@ Library: `tools/music/`. Full source, licence and verification notes: `tools/mus
 | leanin-slowed_cormill.m4a | none | DfA4UbZAQYf | not measured | Not measured | Talking-head bed |
 | 4x4_travis-scott.m4a | none | DbQAuzHs0cy | not measured | Not measured | Not for walk-talks (Remo, 2026-10-26) |
 | outside-my-feelings-outro_arriez-king-dif.m4a | outside-my-feelings-outro_arriez-king-dif__yt-V8ddup1hPj0.m4a | YouTube V8ddup1hPj0 (Mr Nik Setting, "My $600k/mo appointment setting system") | 56.21 s | Straight to 98.23 s, then loops the block 88.21 to 98.23 s (10.02 s), 20 ms crossfades; cut is about 600 s. Matched to the ref's Demucs music stem: corr 0.81 to 0.98, within 0.12 s over 80 s. Ref sits about 11 LU under the voice | Second-channel BTS / YouTube talking heads (used in 2026-10-29-yt-mentee-walk at -12 LU) |
-| seraphic_txmy.m4a | none | none (Frame.io "short form musics", 2026-10-30) | not measured | Straight through | Short-form bed |
-| ray-mysterio-instrumental_the-alchemist.m4a | none | none (Frame.io, 2026-10-30) | not measured | Straight through | Short-form bed |
-| girlfriends-instrumental_new-computers.m4a | none | none (Frame.io, 2026-10-30) | not measured | Very quiet (-24.9 LUFS), gain up | Short-form bed |
-| every-living-breathing-moment_gabriel-piano.m4a | none | none (Frame.io, 2026-10-30) | not measured | Straight through | Short-form bed |
-| echo-sax-end_caleb-arredondo.m4a | none | none (Frame.io, 2026-10-30) | not measured | Straight through. Two remixes also in the library (drill, MIKE MVSK) | Short-form bed |
-| echo-sax-end-drill-remix_caleb-arredondo.m4a | none | none (Frame.io, 2026-10-30) | not measured | Straight through | Short-form bed |
-| echo-sax-end-remix-mike-mvsk_caleb-arredondo.m4a | none | none (Frame.io, 2026-10-30) | not measured | Loud (-8.2 LUFS) | Short-form bed |
-| do-i-clench-my-fists_ridgeclub.m4a | none | none (Frame.io, 2026-10-30) | not measured | Straight through | Short-form bed |
-| acido-iii-over-slowed_udiennx.m4a | none | none (Frame.io, 2026-10-30) | not measured | Loud (-7.5 LUFS) | Short-form bed |
+| seraphic_txmy.m4a | none | IG sound 587213663720245 (5.8K reels); verified De0P-qPJAEz, Dd8FAGbiKUJ | **1.63 s** (IG start 1.5 s, 8 of 12 top reels, IG's own highlight). Also 0.13 s (IG 0 s) | Straight through (IG music sticker, no edits) | Short-form bed |
+| ray-mysterio-instrumental_the-alchemist.m4a | none | IG sound 486670981854169 (79K reels); verified DeW7zAUu1Cd (1.7M plays), DeoMDRgMpHV | **0.13 s** (IG start 0 s, 6 of 12). Also 1.63 s (IG 1.5 s, 4 of 12) | Straight through | Short-form bed |
+| new-computers-instrumental_girlfriends.m4a | none | IG sound 1361450332645281 "New Computers" (15K reels); Dd-r47SO_5k, DeskknWyel7 match the IG sound at its stated start | **1.98 s** (IG start 1.5 s, 9 of 12). Mapped via the IG sound: ours = IG + 0.35 s, steady over the whole track | Our file is a much quieter, different master (-24.9 vs IG -14 LUFS, weak spectral match). For the exact IG sound use `_sources/frameio-short-form-musics/ig/ig_asset/girlfriends.mp4` from 1.63 s | Short-form bed |
+| every-living-breathing-moment_gabriel-piano.m4a | none | IG sound 1213929170639164 (23K reels); verified Dd_lIlztbEu, Dd8zXlOTWV7 | **5.29 s** (IG start 4.5 s, 7 of 12, IG highlight) | Straight through. Ours runs 0.66 s behind IG's sound and has 10 s more tail | Short-form bed |
+| echo-sax-end_caleb-arredondo.m4a | none | IG sound 1073574610962815 (324K reels); verified DZUrwODR8UN (747K plays), DeHuMWUO5bM | **0.84 s** (IG start 0 s, 6 of 12). Also 2.34 s (IG 1.5 s, 3 of 12) | Straight through. Ours runs 0.70 s behind IG's sound. The two remixes are not in IG's music library | Short-form bed |
+| echo-sax-end-drill-remix_caleb-arredondo.m4a | none | none: not in IG's music library (searched 2026-10-30) | not measured | Straight through | Short-form bed |
+| echo-sax-end-remix-mike-mvsk_caleb-arredondo.m4a | none | none: not in IG's music library (searched 2026-10-30) | not measured | Loud (-8.2 LUFS) | Short-form bed |
+| do-i-clench-my-fists_ridgeclub.m4a | none | IG sound 28060501890200050 (302K reels); verified DeED1FvgX8Q (2.3M plays) | **1.48 s** (IG start 1.5 s, 7 of 12, IG highlight) | Straight through | Short-form bed |
+| acido-iii-over-slowed_udiennx.m4a | none | IG sound 778863298353997 (652K reels); verified DeCIKp_peXp, DeJqpvIyURP | **9.00 s** (IG start 9 s, 5 of 12, IG highlight). Top reel DeJqpvIyURP (503K plays) uses 0.14 s (IG 0 s) | Straight through. Loud (-7.5 LUFS) | Short-form bed |
 
 Older rows (no cut) come from the README's Shazam notes and are less precise ("about"). Build a reel-matched cut the first time one is used.
