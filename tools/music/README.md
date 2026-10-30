@@ -116,3 +116,17 @@ How: treg TikHub search for the IG sound, then the reels list for it, which carr
 | echo-sax-end-drill-remix / -remix-mike-mvsk | not in IG's music library | | | Reels using them would be "original audio", not searchable by sound |
 
 Every IG music-sticker reel checked plays straight through from its start (no loops or jumps), so no reel-matched cuts were built: start at the cue and trim the tail.
+
+### Which of these are used under talking videos (Jev, 2026-10-30)
+
+Remo's reference reels always have someone speaking over the music, so the top 60 reels per sound (370 total) were checked. 230 reels of 12 s or more were transcribed locally (whisper.cpp, first 60 s), then Jev judged each: is a person speaking over the music (not song vocals), format (talking head / voiceover over B-roll / music-only), and is it business/money/founder content. Kept: Jev talk >= 0.8 and >= 40 words/min (code). Cost: TikHub $0.03, Jev $0.007. Full list with transcripts and scores: `_sources/frameio-short-form-musics/ig/talkscan/talking_reels.json`.
+
+| File | Talking reels / judged | Business ones | Start used by talking reels | Verdict |
+|---|---|---|---|---|
+| new-computers-instrumental_girlfriends.m4a | 30 / 36 | 10 | IG 1.5 s (22 of 30) = ours 1.98 s | **Talking-head bed.** Founder/marketing creators (e.g. DRzHnWBDlI Y Combinator courses, DfAWTIkM5RG hooks, DevaQ09J9nQ mindset) |
+| every-living-breathing-moment_gabriel-piano.m4a | 29 / 37 | 8 | IG 4.5 s (20 of 29) = ours 5.29 s | **Talking-head bed.** Founder/creator advice (Dd8BHUep5mQ "do a hundred first", De1Wzf1J7GB, DeG_pwOu5qE) |
+| echo-sax-end_caleb-arredondo.m4a | 5 / 14 | 2 | IG 1.5 s (3 of 5) = ours 2.34 s | Mostly music edits; a few voiceovers (trading, goals) |
+| ray-mysterio-instrumental_the-alchemist.m4a | 4 / 35 | 1 | IG 0 / 1.5 s | Mostly music edits (DeRWQ2kRA94 podcaster voiceover is the business one) |
+| seraphic_txmy.m4a | 4 / 30 | 0 | IG 1.5 s | Mostly music edits |
+| do-i-clench-my-fists_ridgeclub.m4a | 3 / 21 | 1 | IG 1.5 s | Mostly music edits (DeCDmm4POAz talking head is the business one) |
+| acido-iii-over-slowed_udiennx.m4a | 1 / 27 | 0 | | Music edits, not a talking bed |
