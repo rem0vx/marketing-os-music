@@ -2,7 +2,7 @@
 
 Remo, 2026-10-28: "make sure we are using all the correct songs/audios and using the same point of the track so it matches the reference reels", saved as a rule so new chats use them right.
 
-Library: `tools/music/`. Full source, licence and verification notes: `tools/music/README.md`. Read this table first; open the README only for detail.
+Library: `tools/music/`. Overview of what to pick (go-to, try, avoid, usage counts): `tools/music/LIBRARY.md`. Full source, licence and verification notes: `tools/music/README.md`. Read this table first; open the README only for detail.
 
 ## Rules
 - When a video uses a song from a reference reel, it starts at the reel's cue point below, not at 0:00 of the track and not at a random section.

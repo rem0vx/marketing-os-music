@@ -1,5 +1,7 @@
 # Music library
 
+Overview first: `LIBRARY.md` (go-to tracks, usage counts, what to try or avoid) and `library.csv`.
+
 | File | Track | Source | Licence | Use |
 |---|---|---|---|---|
 | she-will-instrumental-slowed_932sounds.m4a | "she will (instrumental slowed)" by 932sounds, 6:16 | YouTube, official artist channel "932sounds - Topic" (https://www.youtube.com/watch?v=eai4sjWaMRQ), downloaded 2026-10-18 with yt-dlp; Shazam-verified | NOT licensed. Slowed instrumental of a commercial song | Organic only, and preferably add it from the platform sound library when posting. Never paid ads |
