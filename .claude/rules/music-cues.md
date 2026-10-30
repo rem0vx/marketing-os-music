@@ -37,7 +37,7 @@ Library: `tools/music/`. Full source, licence and verification notes: `tools/mus
 | every-living-breathing-moment_gabriel-piano.m4a | none | none (Frame.io, 2026-10-30) | not measured | Straight through | Short-form bed |
 | echo-sax-end_caleb-arredondo.m4a | none | none (Frame.io, 2026-10-30) | not measured | Straight through. Two remixes also in the library (drill, MIKE MVSK) | Short-form bed |
 | echo-sax-end-drill-remix_caleb-arredondo.m4a | none | none (Frame.io, 2026-10-30) | not measured | Straight through | Short-form bed |
-| echo-sax-end-mike-mvsk-remix_caleb-arredondo.m4a | none | none (Frame.io, 2026-10-30) | not measured | Loud (-8.2 LUFS) | Short-form bed |
+| echo-sax-end-remix-mike-mvsk_caleb-arredondo.m4a | none | none (Frame.io, 2026-10-30) | not measured | Loud (-8.2 LUFS) | Short-form bed |
 | do-i-clench-my-fists_ridgeclub.m4a | none | none (Frame.io, 2026-10-30) | not measured | Straight through | Short-form bed |
 | acido-iii-over-slowed_udiennx.m4a | none | none (Frame.io, 2026-10-30) | not measured | Loud (-7.5 LUFS) | Short-form bed |
 
