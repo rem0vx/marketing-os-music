@@ -42,5 +42,6 @@ Library: `tools/music/`. Overview of what to pick (go-to, try, avoid, usage coun
 | echo-sax-end-remix-mike-mvsk_caleb-arredondo.m4a | none | none: not in IG's music library (searched 2026-10-30) | not measured | Loud (-8.2 LUFS) | Short-form bed |
 | do-i-clench-my-fists_ridgeclub.m4a | none | IG sound 28060501890200050 (302K reels); verified DeED1FvgX8Q (2.3M plays) | **1.48 s** (IG start 1.5 s, 7 of 12, IG highlight) | Straight through | Short-form bed |
 | acido-iii-over-slowed_udiennx.m4a | none | IG sound 778863298353997 (652K reels); verified DeCIKp_peXp, DeJqpvIyURP | **9.00 s** (IG start 9 s, 5 of 12, IG highlight). Top reel DeJqpvIyURP (503K plays) uses 0.14 s (IG 0 s) | Straight through. Loud (-7.5 LUFS) | Music-only edits, not under voice (1 of 27 reels talk) |
+| 4am_nemzzz.m4a | 4am_nemzzz__reel-DfA7yetNERb.m4a | DfA7yetNERb (@brodyautomates, Claude editing prompts) | **13.207 s** (sample-aligned to the reel, corr 0.954) | Straight through, cut is 33 s with fade out | Music-led UI/motion reels with no voice (used full level in 2026-11-08-ref-DfA7yetNERb, SFX about 12 LU under) |
 
 Older rows (no cut) come from the README's Shazam notes and are less precise ("about"). Build a reel-matched cut the first time one is used.

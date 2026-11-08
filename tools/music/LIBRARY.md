@@ -22,6 +22,7 @@ Snapshot 2026-10-30. Sortable version: `library.csv` (same rows, all columns). S
 | Resonance, HOME | resonance_home.m4a | Reflective story, night/city | about 2.4 s | 3 |
 | Me and the Devil (instr. slowed), Luke Muzzic | me-and-the-devil-instrumental-slowed_luke-muzzic.m4a | Dark/serious | 46.7 s | 3 |
 | Equilibriums Edge, RemyyyBeatz | equilibriums-edge_remyyybeatz.m4a (reel cut exists) | Steady beat under a talking head | 71.52 s, loops 12.35 s block | 1 |
+| 4AM, Nemzzz | 4am_nemzzz.m4a (reel cut exists) | Music-led UI/motion reel, no voice | 13.207 s, straight through | 1 |
 | Outside My Feelings (Outro), Arriez & King Dif | outside-my-feelings-outro_arriez-king-dif.m4a (cut exists) | Second-channel BTS, YouTube talking heads | 56.21 s, then loops | 1 |
 | Spring II Largo, Vivaldi | spring-ii-largo_vivaldi-michelle-ross.m4a | Old-master paintings, history | about 3 s (quiet, gain up) | 1 |
 
