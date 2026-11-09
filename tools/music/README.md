@@ -133,3 +133,9 @@ Remo's reference reels always have someone speaking over the music, so the top 6
 | seraphic_txmy.m4a | 4 / 30 | 0 | IG 1.5 s | Mostly music edits |
 | do-i-clench-my-fists_ridgeclub.m4a | 3 / 21 | 1 | IG 1.5 s | Mostly music edits (DeCDmm4POAz talking head is the business one) |
 | acido-iii-over-slowed_udiennx.m4a | 1 / 27 | 0 | | Music edits, not a talking bed |
+
+## Added 2026-11-09
+
+| File | Song | Source | Licence | Use |
+|---|---|---|---|---|
+| make-you-whole-super-slowed_andronicus.m4a | "Make You Whole (Super Slowed)" by Andronicus, 4:07 | YouTube "Andronicus - Topic" (https://www.youtube.com/watch?v=lxAUXi9TL3M), downloaded 2026-11-09; Shazam-verified (offsets exact on this file). Reel instagram.com/reel/DfIfFCqzul- uses it at 1.125x speed from 1.4557 s (sample corr 0.824); reel cut in reel-cuts/ | NOT licensed: organic only, never paid ads | Music-only vibe/list reels |
